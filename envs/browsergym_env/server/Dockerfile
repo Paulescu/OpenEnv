@@ -52,7 +52,7 @@ RUN git clone --depth 1 https://github.com/Farama-Foundation/miniwob-plusplus.gi
 # Set environment variables
 ENV PYTHONUNBUFFERED=1
 ENV BROWSERGYM_BENCHMARK=miniwob
-ENV BROWSERGYM_TASK_NAME="book-flight"
+ENV BROWSERGYM_TASK_NAME="click-test"
 ENV BROWSERGYM_HEADLESS=true
 ENV BROWSERGYM_VIEWPORT_WIDTH=1280
 ENV BROWSERGYM_VIEWPORT_HEIGHT=720
