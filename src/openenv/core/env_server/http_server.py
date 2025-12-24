@@ -825,8 +825,8 @@ def create_app(
             action_cls,
             observation_cls,
             env_name,
-            max_concurrent_envs,
-            concurrency_config,
+            # max_concurrent_envs,
+            # concurrency_config,
         )
     else:
         # Use standard FastAPI app without web interface
